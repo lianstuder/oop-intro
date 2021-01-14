@@ -19,7 +19,10 @@ namespace EinfuehrungOOP
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Java Car");
+            while (true)
+            {
+                MessageBox.Show("Hello World!");
+            }
         }
     }
 }
